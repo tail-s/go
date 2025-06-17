@@ -10,6 +10,14 @@ func main() {
 			fmt.Println(i)
 		}
 	}
+
+	n, err := fmt.Println("Hello, World!", 1234, true)
+	fmt.Println(n)
+	fmt.Println(err)
+
+	m, _ := fmt.Println("Hello, World!", 1234, true)
+	//m, e := fmt.Println("Hello, World!", 1234, true)
+	fmt.Println(m)
 }
 
 func foo() {
