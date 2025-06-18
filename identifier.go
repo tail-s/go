@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 var hello = 12
+var z int
 
 func main() {
 	a := 1
@@ -21,4 +22,5 @@ func main() {
 
 func test() {
 	fmt.Println("This is var", hello)
+	fmt.Println("This is var", z)
 }
